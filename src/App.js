@@ -1,10 +1,12 @@
 
 import './App.css';
+import Sidenav from './components/SideNav';
+import {BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
-function App() {
+export default function App() {
   return (
-    <></>
+    <>
+    <Sidenav/>
+    </>
   )
 }
-
-export default App;
